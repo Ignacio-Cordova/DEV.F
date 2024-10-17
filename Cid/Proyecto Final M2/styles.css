@@ -187,6 +187,14 @@ header{
     width: 120px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+
+.visitPlaces:hover{
+    background-color: #082419;
+    height: 40px;
+    width: 125px;
+    font-size: 15px;
 }
 
 .fondo{
