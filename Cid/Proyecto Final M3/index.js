@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ) {
         favorites.push(japon);
       } else if (
-        event.target.id === "favCoreaDelSur" &&
+        event.target.id === "favCorea del Sur" &&
         !favorites.includes(coreaDelSur)
       ) {
         favorites.push(coreaDelSur);
