@@ -155,7 +155,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.addEventListener("click", (event) => {
     if (event.target.className === "favorites") {
-      if (event.target.id === "favPortugal" && !favorites.includes(portugal)) {
+      if (event.target.id === "favPortugal" && 
+        !favorites.includes(portugal)
+      ) {
         favorites.push(portugal);
       } else if (
         event.target.id === "favMexico" &&
