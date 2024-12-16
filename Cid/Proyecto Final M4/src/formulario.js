@@ -42,8 +42,8 @@ biografia.addEventListener('change', (evento) => obtenerDatos(evento));
 
 
 function enviarDatos(){
-    if (!nombre.value || !raza.value || !imagen.value || !color.value || !edad.value || !jugueteFavorito.value || !personalidad.value || !biografia.value){
-        alert('Por favor llena todos los campos');
+    if (!nombre.value || !raza.value || !imagen.value){
+        alert('Por favor llena todos los campos principales');
         return;
     }
 
