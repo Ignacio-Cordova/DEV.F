@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/stylesLista.css" />
+    <title>Lista</title>
+  </head>
+  <body>
+    <nav class="barraSuperior" id="barraSuperior">
+      <ul class="elementosBSuperior">
+        <a href="./index.html" class="elementoSuperior">Inicio</a>
+        <a href="./lista.html" class="elementoSuperior">Ver Perros</a>
+        <a href="./formulario.html" class="elementoSuperior">Crear Perro</a>
+        <a href="#" class="elementoSuperior">Acerca de</a>
+      </ul>
+    </nav>
+    <div id="contenedorLoader" class="contenedorLoader">
+      <div class="loader" id="loader"></div>
+      <h2>Cargando...</h2>
+    </div>
+    <h1 id="titulo">Lista de Perros</h1>
+    <input
+      type="text"
+      id="buscador"
+      class="buscador"
+      placeholder="Buscar por nombre"
+    />
+    <div id="contenedorTarjetas" class="contenedorTarjetas"></div>
+    <div id="detallesTarjeta" class="modal"></div>
+
+    <div id="modificacionTarjeta"></div>
+    <footer id="footer">
+      <p>Proyecto M4</p>
+    </footer>
+    <script src="../../src/lista.js"></script>
+  </body>
+</html>

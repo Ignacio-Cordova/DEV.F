@@ -1,0 +1,93 @@
+body{
+    background-color: #d8d6d6;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+}
+
+.barraSuperior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.elementosBSuperior{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+}
+
+.elementoSuperior{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+
+.contenedorBotones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.btnVerPerros{
+    background-color: hsl(0, 0%, 51%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 180px;
+}
+
+.btnCrearPerro{
+    background-color: #414141;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 180px;
+}
+
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
